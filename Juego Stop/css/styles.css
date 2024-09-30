@@ -1,0 +1,54 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#endGame, #startGame {
+    background-color: blue;
+    border-radius: 1rem;
+    padding: 8px;
+    color: white;
+    font-size: 1rem;
+}
+
+#gameContainer {
+    position: relative;
+    width: 80vw;
+    height: 80vh;
+    margin: 20px auto;
+    border: 2px solid black;
+    background-color: rgb(150, 163, 184);
+}
+
+#circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+}
+
+.player {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+#scoreBoard {
+    margin-top: 20px;
+}
